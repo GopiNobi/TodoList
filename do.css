@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: 20%;
+   border: 1px solid black ;
+   padding-top:30px ;
+   border-radius: 10px;
+   background-color: cadetblue;
+}
+#text{
+    margin-top: 30px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px 4px 5px;
+}
+#addbtn{
+    padding: 10px;
+background-color: aliceblue;
+font-weight: 600;
+box-shadow: 2px 3px 2px ;
+border-color:aqua;
+}
+.list{
+    text-align: start;
+    margin-left:10px ;
+    margin-top: 20px;    
+}
